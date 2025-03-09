@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace WebApplication1.Controllers;
 
-[Authorize]
+[Authorize(Roles = "prothetic_user")]
 [ApiController]
 [Route("reports")]
 public class WeatherForecastController : ControllerBase
