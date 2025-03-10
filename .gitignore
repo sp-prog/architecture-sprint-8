@@ -2,7 +2,6 @@
 2024__yandex-architecture-sso.code-workspace
 **/.classpath
 **/.dockerignore
-**/.env
 **/.git
 **/.gitignore
 **/.project
@@ -16,15 +15,11 @@
 **/azds.yaml
 **/bin
 **/charts
-**/docker-compose*
-**/Dockerfile*
 **/node_modules
 **/npm-debug.log
 **/obj
 **/secrets.dev.yaml
 **/values.dev.yaml
-LICENSE
-README.md
 !**/.gitignore
 !.git/HEAD
 !.git/config
